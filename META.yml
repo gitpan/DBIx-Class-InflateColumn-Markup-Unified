@@ -1,27 +1,25 @@
 ---
-abstract: 'Automatically formats a text column'
+abstract: 'Automatically formats a text column with Textile, Markdown or BBCode.'
 author:
-  - 'Ido Perlmuter, C<< <ido at fc-bnei-yehuda.com> >>'
+  - 'Ido Perlmuter <ido@ido50.net>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
   Test::More: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 0.91'
-license: gpl
+  ExtUtils::MakeMaker: 6.31
+  version: 0.77
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110580'
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: DBIx-Class-InflateColumn-Markup-Unified
-no_index:
-  directory:
-    - inc
-    - t
 requires:
-  DBIx::Class: 0.07005
+  DBIx::Class: 0
   Markup::Unified: 0
-  perl: 5.8.0
+  perl: 5.006
+  version: 0.77
 resources:
-  license: http://opensource.org/licenses/gpl-license.php
-version: 0.021
+  homepage: http://github.com/ido50/DBIx-Class-InflateColumn-Markup-Unified/tree
+  repository: git://github.com/ido50/DBIx-Class-InflateColumn-Markup-Unified.git
+version: v0.21.1
